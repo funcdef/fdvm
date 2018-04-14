@@ -13,6 +13,7 @@
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
+    "commander": "^2.15.1",
     "fdvm-core": "^1.0.0"
   },
   "bin": {
