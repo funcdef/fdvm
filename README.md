@@ -2,6 +2,11 @@
 
 WASM runtime to develop server-side WebAssembly applications.
 
+## Goals
+- Provide a common interface for developing server side applications for languages targeting wasm (E.g. C, C++, Rust, AssemblyScript, Kotlin, Crystal)
+- Aim to be interface compatible with multitenant execution for FaaS/PaaS runtimes
+
+
 # Try
 
 `git clone https://github.com/funcdef/fdvm.git`
@@ -27,11 +32,6 @@ $fdvm example.wasm
 42
 ```
 
-
-
-## Goals
-- Provide a common interface for developing server side applications for languages targeting wasm (E.g. C, C++, Rust, AssemblyScript, Kotlin, Crystal)
-- Aim to be interface compatible with multitenant execution for FaaS/PaaS runtimes
 
 ## Feature Requests/Issues/Suggestions
 Please open a Github Issue
