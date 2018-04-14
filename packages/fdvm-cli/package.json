@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Command line interface to fdvm",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "wasm",
     "webassembly"

@@ -15,6 +15,6 @@ module.exports = {
             default:
                 throw new Error("unknown imports: " + options.imports)
         }
-        var m = new WebAssembly.Instance(new WebAssembly.Module(buffer), imports)
+        return WebAssembly.instantiate(buffer, imports)
     }
 }
