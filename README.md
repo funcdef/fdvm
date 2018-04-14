@@ -37,4 +37,7 @@ $fdvm example.wasm
 Please open a Github Issue
 
 ## Testing
+
+Run `lerna run test` to run jest tests.
+
 Tested on node v9.11.1
