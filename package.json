@@ -1,5 +1,9 @@
 {
 	"devDependencies": {
 		"lerna": "^2.10.1"
+	},
+	"scripts": {
+		"bootstrap": "lerna bootstrap",
+		"test": "lerna run test"
 	}
 }
