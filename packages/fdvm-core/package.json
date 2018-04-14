@@ -1,0 +1,15 @@
+{
+  "name": "fdvm-core",
+  "version": "1.0.0",
+  "description": "Server-side wasm runtime",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wasm",
+    "webassembly"
+  ],
+  "author": "",
+  "license": "Apache-2.0"
+}
