@@ -33,5 +33,8 @@ $fdvm example.wasm
 - Provide a common interface for developing server side applications for languages targeting wasm (E.g. C, C++, Rust, AssemblyScript, Kotlin, Crystal)
 - Aim to be interface compatible with multitenant execution for FaaS/PaaS runtimes
 
+## Feature Requests/Issues/Suggestions
+Please open a Github Issue
+
 ## Testing
 Tested on node v9.11.1
