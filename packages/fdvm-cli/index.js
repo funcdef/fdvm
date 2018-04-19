@@ -10,7 +10,7 @@ var program = require('commander');
 program
     .version('0.1.0')
     .arguments('<filename>')
-    .option('-i --imports [imports]', 'Imports', /^(rust|simple)$/i, 'simple')
+    .option('-i --imports [imports]', 'Imports', /^(rust|simple|asc)$/i, 'simple')
     .action(function (file) {
         fileValue = file
     }).parse(process.argv);

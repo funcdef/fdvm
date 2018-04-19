@@ -1,5 +1,12 @@
+
+var memory
 module.exports = {
-  log: function (x) {
-    console.log(x)
+  setMemory: function (mem) {
+    memory = mem
+  },
+  env: {
+    log: function (x) {
+      console.log(x)
+    }
   }
 }
